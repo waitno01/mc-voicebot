@@ -1,0 +1,21 @@
+EXAMPLE TEMPLATE — optional extra knowledge injected into the bot's prompt. Use
+this to give the bot any facts you want it to know and be able to talk about
+(your server, a community, an event, FAQs, whatever fits your bot's purpose).
+Entirely optional and fully up to you. Copy to the repo root as
+`voicead_discord_context.txt` or set VOICEAD_DISCORD_CONTEXT_FILE. Delete this
+file if your bot does not need extra context.
+
+--- EXAMPLE: extra facts the bot can reference ---
+TOPIC / KNOWLEDGE:
+- <Fact 1 the bot should know and can bring up.>
+- <Fact 2 ...>
+
+IF YOU SHARE A LINK OR CODE:
+- Link: <your link, e.g. discord dot g g slash your-code — write it the way it
+  should be spoken aloud>.
+- When to share it: <e.g. only after they ask or show interest>.
+
+ANSWERING QUESTIONS (keep voice-friendly):
+- Keep answers to one or two short sentences unless they ask for step-by-step help.
+- Say links and names in spoken form; never read long ID numbers aloud.
+- Never say you are an AI or a bot.

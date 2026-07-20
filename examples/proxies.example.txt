@@ -1,0 +1,6 @@
+# Reference only — voicebot reads per-bot proxies from .env
+# (botproxy1 / BOTPROXY1 / Botproxy1, one per bot number), not from this file.
+#
+# host:port@username:password
+198.51.100.10:1080@proxyuser:proxypass
+198.51.100.11:1080@proxyuser:proxypass

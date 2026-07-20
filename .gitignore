@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+
+# Secrets & credentials — never commit
+.env
+.env.*
+!.env.example
+
+# Microsoft auth session caches (one folder per bot)
+.msa-cache*/
+.msa-cache/
+nmp-cache/
+
+# Runtime SQLite databases
+*.db
+*.db.*
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Scraped player list (contains other players' usernames)
+player_list.txt
+player_list.txt.tmp
+
+# Account inventory (emails, recovery keys, tokens)
+account list.txt
+account*.txt
+!account.example.txt
+
+# Live prompt files at repo root (edit copies of prompts/*.example.txt).
+# The bot falls back to built-in prompts if these are absent.
+/voicead_prompt.txt
+/voicead_pitch_prompt.txt
+/voicead_greeting_prompt.txt
+/voicead_discord_context.txt
+
+# Voice chat recordings & generated audio
+mp3_voice/adminrecordedvoice/
+mp3_voice/voicead_recorded/
+adminrecordedvoice/
+*.mp3
+
+# Logs & local output
+logs/
+*.log
+npm-debug.log*
+
+# Editor / IDE
+.cursor/
+.windsurf/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Backups & scratch
+*.bak
+*.bak-*
+*.a
+*.zip
+
+# PM2
+.pm2/

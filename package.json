@@ -1,0 +1,25 @@
+{
+  "name": "voicebot",
+  "version": "1.0.0",
+  "description": "DonutSMP proximity-voice recruiter bot pool (mineflayer + Simple Voice Chat + AI voice)",
+  "main": "voicebot.js",
+  "scripts": {
+    "start": "node voicebot.js"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.10.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "form-data": "^4.0.0",
+    "gradient-string": "^2.0.2",
+    "mineflayer": "^4.15.1",
+    "socks": "^2.7.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

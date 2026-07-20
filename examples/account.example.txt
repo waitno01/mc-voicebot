@@ -1,0 +1,8 @@
+# Reference only. voicebot logs in with Microsoft device-code auth (mineflayer
+# auth: 'microsoft'). On first run each bot prints a microsoft.com/link code;
+# approve it once and the session is cached under
+# .msa-cache-<MSA_CACHE_PREFIX>-<botNumber>/. No password is stored in this repo.
+#
+# Track which Microsoft account backs each bot number here if you like:
+# bot=1  email=bot1@example.com
+# bot=2  email=bot2@example.com
